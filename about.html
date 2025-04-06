@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About | PolyMate</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: #4a90e2;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+
+    .container {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .feature {
+      background: white;
+      margin: 1rem 0;
+      padding: 1.5rem;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .feature:hover {
+      transform: scale(1.02);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .chat-preview {
+      display: inline-block;
+      background: #4a90e2;
+      color: white;
+      padding: 0.8rem 1.2rem;
+      border-radius: 25px;
+      margin-top: 2rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .chat-preview:hover {
+      background: #357bd8;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>About PolyMate</h1>
+  </header>
+
+  <div class="container">
+    <div class="feature">
+      <h2>🎯 Project Vision</h2>
+      <p>To develop an interactive chatbot that assists MSBTE diploma students by providing quick and reliable access to academic information such as syllabus details, exam schedules, and subject guidance. The goal is to enhance student support through an easy-to-use platform that simplifies the process of finding essential educational resources.    </p>
+    </div>
+
+    <div class="feature">
+      <h2>📌 Scope</h2>
+      <p>PolyMate is designed to assist MSBTE diploma students by answering common academic queries through a chatbot interface. It provides information like syllabus, exam schedules, and subject details. The project is limited to predefined responses and works within a browser environment, without using backend services or advanced AI features.
+
+      </p>
+    </div>
+
+    <div class="feature">
+      <h2>🔧 Technologies Used</h2>
+      <p>💬 Chatbot Interface – Interactive chatbot for student queries<br>
+
+        📚 MSBTE Academic Info – Provides syllabus, exam dates, and subject details<br>
+        
+        ⚡ Instant Responses – Fast and predefined answers to common questions<br>
+        
+        🌐 Fully Browser-Based – Runs directly in the browser without backend<br>
+        
+        📱 Responsive Design – Works smoothly on desktop and mobile devices<br>
+        
+        🎨 User-Friendly UI – Clean and simple layout for easy navigation<br>
+        
+        👨‍🎓 Student-Centric – Specifically built for MSBTE diploma students</p>
+    </div>
+
+    <div class="chat-preview" onclick="alert('This will open the chatbot (demo button).')">
+      💬 Try Chatbot Demo
+    </div>
+  </div>
+
+</body>
+</html>
