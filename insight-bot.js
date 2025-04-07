@@ -44,7 +44,7 @@ function toggleChatbot() {
   
     // 🔽 Use this block for real API integration
     try {
-      const response = await fetch('https://your-api-endpoint.com/chat' +AIzaSyBdqD6rU4R0zdiZl90Mkts5a2NHJ6NrwYw, {
+      const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${process.env.GEMINI_KEY}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
